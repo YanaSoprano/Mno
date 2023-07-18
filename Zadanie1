@@ -1,0 +1,4 @@
+N=int(input("Введите количество элементов списка"))
+spisok = list(map(int, input().split()))[:n]
+e=set(spisok)
+print(len(e))
